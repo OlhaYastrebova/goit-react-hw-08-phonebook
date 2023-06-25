@@ -3,7 +3,7 @@ import { NavLink, Link } from "react-router-dom"
 
 export const StyledAppBar = styled(AppBar)`
     position: sticky;
-    background-color: #7B586B;
+    background-color: #246780;
     max-width: 800px;
     margin: 0 auto;
 `
