@@ -36,7 +36,7 @@ const VALIDATION_SCHEMA = Yup.object().shape({
         .max(50, 'Too Long! Max 50 symbols')
         .matches(
             customRegex.email,
-            'Email may contain only Eng letters. Not use spaces and some symbols / | \\ ,'
+            'Please insert a valid email address'
         )
         .required('Required'),
     password: Yup.string()
